@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CoolFormula</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,11 +13,47 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
-    <form>
-      <label></label>
-      <input type="text" />
-      <input type="password" />
-      <button type="submit">Log in</button>
-    </form>
+    <div class="main">
+      <div class="ring"></div>
+      <div class="ring"></div>
+      <div class="ring"></div>
+      <div class="container">
+        <form>
+          <h1>Login</h1>
+          <div class="">
+            <label for="user-name"></label>
+            <input
+              type="text"
+              id="user-name"
+              name="user-name"
+              class="user-name"
+              placeholder="Username"
+              required
+            />
+          </div>
+          <div>
+            <label for="user-password"></label>
+            <input
+              type="password"
+              id="user-password"
+              name="user-password"
+              class="user-password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <input
+            type="submit"
+            id="login-button"
+            value="Log in"
+            class="button"
+          />
+          <div class="links">
+            <a href="">Forget password</a>
+            <a href="">Sign up</a>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
