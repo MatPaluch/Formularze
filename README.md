@@ -1,1 +1,1 @@
-# Colorfull example form for login #
+# Colorful LOGIN page example #
